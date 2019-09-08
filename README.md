@@ -23,7 +23,7 @@ There are several `font-family` you can choose from (all Powerline-enabled):
   * `Ubuntu Mono` - [Ubuntu Mono derivative
     Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
   * `Monofur` - [Monofur for Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
-    
+  *_`Noto Mono for Powerline` - [Noto Mono for Powerline](https://github.com/powerline/fonts/tree/master/NotoMono)
 
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
@@ -42,7 +42,7 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
 
 ```js
 term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/wernight/powerline-web-fonts@ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css');
+term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/grobbie/powerline-web-fonts@ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
@@ -65,7 +65,7 @@ There are various methods, including:
   * [ttf to woff2 | Everything Fonts](https://everythingfonts.com/ttf-to-woff2)
   * [Webfont Generator | Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
   * Using [FontForge](https://fontforge.github.io/en-US/):
-        
+
     ```bash
     #!/usr/bin/env fontforge
     Open($1)
