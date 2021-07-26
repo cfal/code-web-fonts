@@ -4,26 +4,18 @@
 
 There are several `font-family` you can choose from (all Powerline-enabled):
 
-  * `Anonymous Pro` - [Anonymice
-    Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
-  * `DejaVu Sans Mono` -
-    [DejaVu Sans Mono for Powerline](https://github.com/powerline/fonts/tree/master/DejaVuSansMono)
+  * `Anonymous Pro` - [Anonymice Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
+  * `DejaVu Sans Mono` - [DejaVu Sans Mono for Powerline](https://github.com/powerline/fonts/tree/master/DejaVuSansMono)
   * `Hack` - [Hack Webfont](https://github.com/chrissimpkins/Hack)
-  * `Inconsolata` - [Inconsolata for
-    Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
-  * `Inconsolata-g` - [Inconsolata-g for
-    Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata-g)
+  * `Inconsolata` - [Inconsolata for Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
+  * `Inconsolata-g` - [Inconsolata-g for Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata-g)
   * `Iosevka` - [Iosevka Webfont](https://github.com/be5invis/Iosevka)
-  * `Liberation Mono` - [Literation Mono
-    Powerline](https://github.com/powerline/fonts/tree/master/LiberationMono)
-  * `Monofur` - [monofur for
-    Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
+  * `Liberation Mono` - [Literation Mono Powerline](https://github.com/powerline/fonts/tree/master/LiberationMono)
+  * `Monofur for Powerline` - [Monofur for Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
+  * `Noto Mono for Powerline` - [Noto Mono for Powerline](https://github.com/powerline/fonts/tree/master/NotoMono)
   * `PT Mono` - PT Mono for Powerline
   * `Source Code Pro` - [Source Code for Powerline](https://github.com/powerline/fonts/tree/master/SourceCodePro)
-  * `Ubuntu Mono` - [Ubuntu Mono derivative
-    Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
-  * `Monofur for Powerline` - [Monofur for Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
-  *_`Noto Mono for Powerline` - [Noto Mono for Powerline](https://github.com/powerline/fonts/tree/master/NotoMono)
+  * `Ubuntu Mono` - [Ubuntu Mono derivative Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
 
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
