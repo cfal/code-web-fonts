@@ -34,7 +34,19 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
   - Launch *Secure Shell* and click on **Options**
     (or go to `chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh_preferences_editor.html`):
       - Set **font-family**: `"Source Code Pro", monospace`
-      - Set **Custom CSS (URI)**: `https://cdn.jsdelivr.net/gh/wernight/powerline-web-fonts@ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css`
+      - Set **Custom CSS (URI)** to one of the following:
+        - jsdelivr CDN at hash (longest cache expiry):
+          ```
+          https://cdn.jsdelivr.net/gh/cfal/powerline-web-fonts@9a0293333d3faaf9b5f0eec9090f7e959bd50cf7/PowerlineFonts.css
+          ```
+        - jsdelivr CDN (latest):
+          ```
+          https://cdn.jsdelivr.net/gh/cfal/powerline-web-fonts/PowerlineFonts.css
+          ```
+        - github (latest):
+          ```
+          https://raw.githubusercontent.com/cfal/powerline-web-fonts/master/PowerlineFonts.css
+          ```
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
 
@@ -42,7 +54,7 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
 
 ```js
 term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/grobbie/powerline-web-fonts@ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css');
+term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/cfal/powerline-web-fonts@9a0293333d3faaf9b5f0eec9090f7e959bd50cf7/PowerlineFonts.css');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
