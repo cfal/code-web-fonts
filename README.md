@@ -22,7 +22,7 @@ There are several `font-family` you can choose from (all Powerline-enabled):
   * `Source Code Pro` - [Source Code for Powerline](https://github.com/powerline/fonts/tree/master/SourceCodePro)
   * `Ubuntu Mono` - [Ubuntu Mono derivative
     Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
-  * `Monofur` - [Monofur for Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
+  * `Monofur for Powerline` - [Monofur for Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
   *_`Noto Mono for Powerline` - [Noto Mono for Powerline](https://github.com/powerline/fonts/tree/master/NotoMono)
 
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
