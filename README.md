@@ -1,6 +1,10 @@
-# powerline-web-fonts
+# code-web-fonts
 
-[**Powerline** Web Fonts](https://github.com/powerline/fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
+Web fonts for programming, including [**Powerline** enabled fonts](https://github.com/powerline/fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
+
+[Preview the fonts](https://rawcdn.githack.com/cfal/code-web-fonts/c95525915323762db28f11a32ffe78e54564bcd0/preview.html) (courtesy of raw.githack.com)
+
+## Available fonts
 
 There are several `font-family` you can choose from.
 
@@ -23,7 +27,6 @@ Other fixed-width fonts:
 
   * `Fixedsys Excelsior` - [Fixedsys Excelsior](https://www.cufonfonts.com/font/fixedsys-excelsior-301)
 
-
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
 ## Usage example
@@ -36,15 +39,15 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
       - Set **Custom CSS (URI)** to one of the following:
         - jsdelivr CDN at hash (longest cache expiry):
           ```
-          https://cdn.jsdelivr.net/gh/cfal/powerline-web-fonts@9a0293333d3faaf9b5f0eec9090f7e959bd50cf7/PowerlineFonts.css
+          https://cdn.jsdelivr.net/gh/cfal/code-web-fonts@c95525915323762db28f11a32ffe78e54564bcd0/CodeFonts.css
           ```
         - jsdelivr CDN (latest):
           ```
-          https://cdn.jsdelivr.net/gh/cfal/powerline-web-fonts/PowerlineFonts.css
+          https://cdn.jsdelivr.net/gh/cfal/code-web-fonts/CodeFonts.css
           ```
         - github (latest):
           ```
-          https://raw.githubusercontent.com/cfal/powerline-web-fonts/master/PowerlineFonts.css
+          https://raw.githubusercontent.com/cfal/code-web-fonts/master/CodeFonts.css
           ```
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
@@ -53,7 +56,7 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
 
 ```js
 term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/cfal/powerline-web-fonts@9a0293333d3faaf9b5f0eec9090f7e959bd50cf7/PowerlineFonts.css');
+term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/cfal/code-web-fonts@c95525915323762db28f11a32ffe78e54564bcd0/CodeFonts.css');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
@@ -65,8 +68,7 @@ and it'll work with little to no effort.
 To add a new font, you can submit a GitHub pull request through a forked repository. Your pull request should:
 
   - Include a new font file in [WOFF2 format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
-  - Add your font to `PowerlineFonts.css`, `preview.html` and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
-  - Once merged, send another pull request, I might forget, that updates all `https://cdn.rawgit.com/` in this README to the [latest commit SHA-1](https://github.com/wernight/powerline-web-fonts/commits/master). You can do that in the original Pull Request if it gets rebased (merge and sqashes would not work in that case).
+  - Add your font to `CodeFonts.css`, `preview.html` and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
 
 ### Converting to WOFF2
 
