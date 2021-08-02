@@ -2,7 +2,7 @@
 
 Web fonts for programming, including [**Powerline** enabled fonts](https://github.com/powerline/fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
 
-[Preview the fonts](https://rawcdn.githack.com/cfal/code-web-fonts/c95525915323762db28f11a32ffe78e54564bcd0/preview.html) (courtesy of raw.githack.com)
+[Preview the fonts](https://rawcdn.githack.com/cfal/code-web-fonts/7b73784ae5acd0d783f9f3629c845a9e51ec1dbf/preview.html) (courtesy of raw.githack.com)
 
 ## Available fonts
 
@@ -39,7 +39,7 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
       - Set **Custom CSS (URI)** to one of the following:
         - jsdelivr CDN at hash (longest cache expiry):
           ```
-          https://cdn.jsdelivr.net/gh/cfal/code-web-fonts@c95525915323762db28f11a32ffe78e54564bcd0/CodeFonts.css
+          https://cdn.jsdelivr.net/gh/cfal/code-web-fonts@7b73784ae5acd0d783f9f3629c845a9e51ec1dbf/CodeFonts.css
           ```
         - jsdelivr CDN (latest):
           ```
@@ -56,7 +56,7 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
 
 ```js
 term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/cfal/code-web-fonts@c95525915323762db28f11a32ffe78e54564bcd0/CodeFonts.css');
+term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/cfal/code-web-fonts@7b73784ae5acd0d783f9f3629c845a9e51ec1dbf/CodeFonts.css');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
