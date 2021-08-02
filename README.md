@@ -2,7 +2,9 @@
 
 [**Powerline** Web Fonts](https://github.com/powerline/fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
 
-There are several `font-family` you can choose from (all Powerline-enabled):
+There are several `font-family` you can choose from.
+
+Powerline enabled:
 
   * `Anonymous Pro` - [Anonymice Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
   * `DejaVu Sans Mono` - [DejaVu Sans Mono for Powerline](https://github.com/powerline/fonts/tree/master/DejaVuSansMono)
@@ -16,6 +18,11 @@ There are several `font-family` you can choose from (all Powerline-enabled):
   * `PT Mono` - PT Mono for Powerline
   * `Source Code Pro` - [Source Code for Powerline](https://github.com/powerline/fonts/tree/master/SourceCodePro)
   * `Ubuntu Mono` - [Ubuntu Mono derivative Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
+
+Other fixed-width fonts:
+
+  * `Fixedsys Excelsior` - [Fixedsys Excelsior](https://www.cufonfonts.com/font/fixedsys-excelsior-301)
+
 
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 

@@ -109,3 +109,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Fixedsys Excelsior";
+    src: local("Fixedsys Excelsior"),
+         url(fonts/FSEX300.woff) format("woff");
+}
